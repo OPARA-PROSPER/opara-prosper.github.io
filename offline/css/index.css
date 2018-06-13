@@ -1,0 +1,30 @@
+body{
+    background: rgb(243, 240, 240);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#boilerplateName{
+    font-size: 100px;
+    text-transform: capitalize;
+}
+p{
+    font-size: 25px;
+}
+span{
+    background: yellow;
+    padding: 1px;
+}
+
+@media screen and (max-width: 700px){
+    body{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    #boilerplateName{
+        font-size: 50px;
+    }
+    p{
+        font-size: 15px;
+    }
+} 
