@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Converter app</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <h1>Currency Converter</h1>
+
+    <section>
+        <form id="form">
+            <input type="text" placeholder="Amount" id="amount">
+            <select id="fromAmount"></select>
+            <label>To</label>
+            <select id="toAmount"></select>
+            <input type="submit" value="Convert">
+        </form>
+
+        <div id="result">amount</div>
+    </section>
+        
+    <script src="js/api.js"></script>
+</body>
+</html>
